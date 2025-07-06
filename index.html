@@ -3,157 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
+  <title>A. Yogesh Kumar | Portfolio</title>
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-    }
-
     body {
-      background: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
       color: #333;
-      line-height: 1.6;
     }
-
     header {
       background: #222;
       color: white;
-      padding: 1em;
       text-align: center;
+      padding: 1.5em 0;
     }
-
-    header nav a {
+    nav a {
       color: white;
       margin: 0 15px;
       text-decoration: none;
     }
-
-    header nav a:hover {
-      text-decoration: underline;
-    }
-
     section {
       padding: 2em;
       max-width: 900px;
       margin: auto;
     }
-
-    h2 {
-      margin-bottom: 1em;
-      color: #333;
-    }
-
     .project-card {
       background: white;
       border: 1px solid #ddd;
       padding: 1em;
-      margin: 1em 0;
+      margin-bottom: 1em;
       border-radius: 8px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-
-    .project-card img {
-      width: 100%;
-      max-height: 200px;
-      object-fit: cover;
-      border-radius: 6px;
-    }
-
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-
     footer {
       text-align: center;
-      padding: 1em;
       background: #222;
       color: white;
-    }
-
-    a {
-      color: #007acc;
-    }
-
-    a:hover {
-      text-decoration: underline;
+      padding: 1em;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <h1>A. Yogesh Kumar</h1>
+  <p>Full Stack Developer | Python & React JS</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a passionate web developer skilled in HTML, CSS, and JavaScript. I love building responsive websites and interactive user experiences. I am currently seeking opportunities to apply my skills in a professional setting.</p>
-  </section>
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m a passionate Computer Science student focused on full-stack development. I love building scalable web applications using Python, React JS, and the MERN stack. I’ve contributed to hackathons and completed internships in Machine Learning and Web Development.</p>
+</section>
 
-  <section id="projects">
-    <h2>Projects</h2>
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Languages: Python, JavaScript, C, PHP, SQL</li>
+    <li>Frontend: HTML, CSS, React JS</li>
+    <li>Backend: Node.js, Express, PHP</li>
+    <li>Databases: MySQL, MongoDB</li>
+    <li>Tools: Git, VS Code</li>
+    <li>Concepts: MERN Stack, Data Cleaning</li>
+  </ul>
+</section>
 
-    <div class="project-card">
-      <img src="https://via.placeholder.com/800x200" alt="Project Screenshot" />
-      <h3>Portfolio Website</h3>
-      <p>A personal portfolio website built using HTML, CSS, and JavaScript to showcase my work and skills.</p>
-      <a href="https://github.com/yourusername/portfolio" target="_blank">View Code</a>
-    </div>
+<section id="projects">
+  <h2>Projects</h2>
 
-    <div class="project-card">
-      <img src="https://via.placeholder.com/800x200" alt="Project Screenshot" />
-      <h3>To-Do App</h3>
-      <p>A simple to-do list application that lets users add, delete, and manage tasks. Built with vanilla JavaScript.</p>
-      <a href="https://github.com/yourusername/todo-app" target="_blank">View Code</a>
-    </div>
+  <div class="project-card">
+    <h3>House Price Prediction</h3>
+    <p>Mini ML project to predict house prices using real-world datasets and regression models.</p>
+  </div>
 
-  </section>
+  <div class="project-card">
+    <h3>Educational Website</h3>
+    <p>Hackathon project built using React and Node.js, aimed at providing online educational resources.</p>
+  </div>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript</li>
-      <li>Responsive Web Design</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
+  <div class="project-card">
+    <h3>Hotel Booking Site</h3>
+    <p>A full-stack website that allows users to search and book hotel rooms. Implemented with MongoDB and Express.</p>
+  </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">yourusername</a></p>
-  </section>
+  <div class="project-card">
+    <h3>Login Validation</h3>
+    <p>Mini project implementing secure login system using JavaScript and form validation techniques.</p>
+  </div>
 
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
+  <div class="project-card">
+    <h3>Recommendation System</h3>
+    <p>ML-based recommendation engine to suggest items based on user data and preferences.</p>
+  </div>
+</section>
 
-  <script>
-    // Smooth scroll for nav links
-    document.querySelectorAll('nav a').forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        document.querySelector(link.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:adapakumar2005@gmail.com">adapakumar2005@gmail.com</a></p>
+  <p>Phone: 9440833194</p>
+  <p>Location: Visakhapatnam, Andhra Pradesh</p>
+  <p>GitHub: <a href="https://github.com/gohstrider05" target="_blank">gohstrider05</a></p>
+</section>
+
+<footer>
+  <p>© 2025 A. Yogesh Kumar</p>
+</footer>
+
+<script>
+  // Smooth scrolling for nav
+  document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      document.querySelector(link.getAttribute("href")).scrollIntoView({
+        behavior: "smooth"
       });
     });
-  </script>
+  });
+</script>
 
 </body>
 </html>
